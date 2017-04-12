@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B75534F1E9DC8DD000FBD4D /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B75534E1E9DC8DD000FBD4D /* libsqlite3.0.tbd */; };
+		2B7821161E9E1FB400016BCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7820E71E9E1FB400016BCF /* AppDelegate.m */; };
+		2B7821171E9E1FB400016BCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B7820E81E9E1FB400016BCF /* Assets.xcassets */; };
+		2B7821181E9E1FB400016BCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7820E91E9E1FB400016BCF /* LaunchScreen.storyboard */; };
+		2B7821191E9E1FB400016BCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7820EB1E9E1FB400016BCF /* Main.storyboard */; };
+		2B78211A1E9E1FB400016BCF /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7820EF1E9E1FB400016BCF /* FMDatabase.m */; };
+		2B78211B1E9E1FB400016BCF /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7820F11E9E1FB400016BCF /* FMDatabaseAdditions.m */; };
+		2B78211C1E9E1FB400016BCF /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7820F31E9E1FB400016BCF /* FMDatabasePool.m */; };
+		2B78211D1E9E1FB400016BCF /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7820F51E9E1FB400016BCF /* FMDatabaseQueue.m */; };
+		2B78211E1E9E1FB400016BCF /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7820F81E9E1FB400016BCF /* FMResultSet.m */; };
+		2B78211F1E9E1FB400016BCF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B7820F91E9E1FB400016BCF /* Info.plist */; };
+		2B7821211E9E1FB400016BCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7820FB1E9E1FB400016BCF /* main.m */; };
+		2B7821221E9E1FB400016BCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7820FD1E9E1FB400016BCF /* ViewController.m */; };
+		2B7821231E9E1FB400016BCF /* area.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B7820FF1E9E1FB400016BCF /* area.json */; };
+		2B7821241E9E1FB400016BCF /* council.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 2B7821001E9E1FB400016BCF /* council.sqlite */; };
+		2B7821251E9E1FB400016BCF /* YLArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7821031E9E1FB400016BCF /* YLArea.m */; };
+		2B7821261E9E1FB400016BCF /* YLAreaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7821051E9E1FB400016BCF /* YLAreaModel.m */; };
+		2B7821271E9E1FB400016BCF /* YLCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7821071E9E1FB400016BCF /* YLCity.m */; };
+		2B7821281E9E1FB400016BCF /* YLDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7821091E9E1FB400016BCF /* YLDataSource.m */; };
+		2B7821291E9E1FB400016BCF /* YLProvence.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B78210B1E9E1FB400016BCF /* YLProvence.m */; };
+		2B78212A1E9E1FB400016BCF /* YLStreet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B78210D1E9E1FB400016BCF /* YLStreet.m */; };
+		2B78212B1E9E1FB400016BCF /* YLPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7821101E9E1FB400016BCF /* YLPickView.m */; };
+		2B78212C1E9E1FB400016BCF /* YLAreaPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7821131E9E1FB400016BCF /* YLAreaPickerViewController.m */; };
+		2B78212D1E9E1FB400016BCF /* YLDataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7821151E9E1FB400016BCF /* YLDataBaseManager.m */; };
+		2B78212F1E9E203300016BCF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B78212E1E9E203300016BCF /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B75534E1E9DC8DD000FBD4D /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		2B7820E61E9E1FB400016BCF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B7820E71E9E1FB400016BCF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B7820E81E9E1FB400016BCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B7820EA1E9E1FB400016BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B7820EC1E9E1FB400016BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B7820EE1E9E1FB400016BCF /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		2B7820EF1E9E1FB400016BCF /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		2B7820F01E9E1FB400016BCF /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		2B7820F11E9E1FB400016BCF /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		2B7820F21E9E1FB400016BCF /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		2B7820F31E9E1FB400016BCF /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		2B7820F41E9E1FB400016BCF /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		2B7820F51E9E1FB400016BCF /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		2B7820F61E9E1FB400016BCF /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		2B7820F71E9E1FB400016BCF /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		2B7820F81E9E1FB400016BCF /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		2B7820F91E9E1FB400016BCF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B7820FB1E9E1FB400016BCF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B7820FC1E9E1FB400016BCF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B7820FD1E9E1FB400016BCF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B7820FF1E9E1FB400016BCF /* area.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = area.json; sourceTree = "<group>"; };
+		2B7821001E9E1FB400016BCF /* council.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = council.sqlite; sourceTree = "<group>"; };
+		2B7821021E9E1FB400016BCF /* YLArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLArea.h; sourceTree = "<group>"; };
+		2B7821031E9E1FB400016BCF /* YLArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLArea.m; sourceTree = "<group>"; };
+		2B7821041E9E1FB400016BCF /* YLAreaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAreaModel.h; sourceTree = "<group>"; };
+		2B7821051E9E1FB400016BCF /* YLAreaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLAreaModel.m; sourceTree = "<group>"; };
+		2B7821061E9E1FB400016BCF /* YLCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLCity.h; sourceTree = "<group>"; };
+		2B7821071E9E1FB400016BCF /* YLCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLCity.m; sourceTree = "<group>"; };
+		2B7821081E9E1FB400016BCF /* YLDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDataSource.h; sourceTree = "<group>"; };
+		2B7821091E9E1FB400016BCF /* YLDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDataSource.m; sourceTree = "<group>"; };
+		2B78210A1E9E1FB400016BCF /* YLProvence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLProvence.h; sourceTree = "<group>"; };
+		2B78210B1E9E1FB400016BCF /* YLProvence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLProvence.m; sourceTree = "<group>"; };
+		2B78210C1E9E1FB400016BCF /* YLStreet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLStreet.h; sourceTree = "<group>"; };
+		2B78210D1E9E1FB400016BCF /* YLStreet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLStreet.m; sourceTree = "<group>"; };
+		2B78210F1E9E1FB400016BCF /* YLPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPickView.h; sourceTree = "<group>"; };
+		2B7821101E9E1FB400016BCF /* YLPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPickView.m; sourceTree = "<group>"; };
+		2B7821121E9E1FB400016BCF /* YLAreaPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAreaPickerViewController.h; sourceTree = "<group>"; };
+		2B7821131E9E1FB400016BCF /* YLAreaPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLAreaPickerViewController.m; sourceTree = "<group>"; };
+		2B7821141E9E1FB400016BCF /* YLDataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDataBaseManager.h; sourceTree = "<group>"; };
+		2B7821151E9E1FB400016BCF /* YLDataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDataBaseManager.m; sourceTree = "<group>"; };
+		2B78212E1E9E203300016BCF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BCF132E1E9CD72B0032C11C /* YLAreaPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLAreaPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BCF132B1E9CD72B0032C11C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B75534F1E9DC8DD000FBD4D /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B75534D1E9DC8DD000FBD4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B75534E1E9DC8DD000FBD4D /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B7820E51E9E1FB400016BCF /* YLAreaPicker */ = {
+			isa = PBXGroup;
+			children = (
+				2B7820E61E9E1FB400016BCF /* AppDelegate.h */,
+				2B7820E71E9E1FB400016BCF /* AppDelegate.m */,
+				2B7820E81E9E1FB400016BCF /* Assets.xcassets */,
+				2B7820E91E9E1FB400016BCF /* LaunchScreen.storyboard */,
+				2B7820EB1E9E1FB400016BCF /* Main.storyboard */,
+				2B7820ED1E9E1FB400016BCF /* FMDB */,
+				2B7820FB1E9E1FB400016BCF /* main.m */,
+				2B7820FC1E9E1FB400016BCF /* ViewController.h */,
+				2B7820FD1E9E1FB400016BCF /* ViewController.m */,
+				2B7820FE1E9E1FB400016BCF /* YLAreaPickerViewController */,
+				2B7821141E9E1FB400016BCF /* YLDataBaseManager.h */,
+				2B7821151E9E1FB400016BCF /* YLDataBaseManager.m */,
+				2B78212E1E9E203300016BCF /* Info.plist */,
+			);
+			path = YLAreaPicker;
+			sourceTree = "<group>";
+		};
+		2B7820ED1E9E1FB400016BCF /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				2B7820EE1E9E1FB400016BCF /* FMDatabase.h */,
+				2B7820EF1E9E1FB400016BCF /* FMDatabase.m */,
+				2B7820F01E9E1FB400016BCF /* FMDatabaseAdditions.h */,
+				2B7820F11E9E1FB400016BCF /* FMDatabaseAdditions.m */,
+				2B7820F21E9E1FB400016BCF /* FMDatabasePool.h */,
+				2B7820F31E9E1FB400016BCF /* FMDatabasePool.m */,
+				2B7820F41E9E1FB400016BCF /* FMDatabaseQueue.h */,
+				2B7820F51E9E1FB400016BCF /* FMDatabaseQueue.m */,
+				2B7820F61E9E1FB400016BCF /* FMDB.h */,
+				2B7820F71E9E1FB400016BCF /* FMResultSet.h */,
+				2B7820F81E9E1FB400016BCF /* FMResultSet.m */,
+				2B7820F91E9E1FB400016BCF /* Info.plist */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		2B7820FE1E9E1FB400016BCF /* YLAreaPickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2B7820FF1E9E1FB400016BCF /* area.json */,
+				2B7821001E9E1FB400016BCF /* council.sqlite */,
+				2B7821011E9E1FB400016BCF /* YLAreaModels */,
+				2B78210E1E9E1FB400016BCF /* YLAreaPickerView */,
+				2B7821111E9E1FB400016BCF /* YLControllers */,
+			);
+			path = YLAreaPickerViewController;
+			sourceTree = "<group>";
+		};
+		2B7821011E9E1FB400016BCF /* YLAreaModels */ = {
+			isa = PBXGroup;
+			children = (
+				2B7821021E9E1FB400016BCF /* YLArea.h */,
+				2B7821031E9E1FB400016BCF /* YLArea.m */,
+				2B7821041E9E1FB400016BCF /* YLAreaModel.h */,
+				2B7821051E9E1FB400016BCF /* YLAreaModel.m */,
+				2B7821061E9E1FB400016BCF /* YLCity.h */,
+				2B7821071E9E1FB400016BCF /* YLCity.m */,
+				2B7821081E9E1FB400016BCF /* YLDataSource.h */,
+				2B7821091E9E1FB400016BCF /* YLDataSource.m */,
+				2B78210A1E9E1FB400016BCF /* YLProvence.h */,
+				2B78210B1E9E1FB400016BCF /* YLProvence.m */,
+				2B78210C1E9E1FB400016BCF /* YLStreet.h */,
+				2B78210D1E9E1FB400016BCF /* YLStreet.m */,
+			);
+			path = YLAreaModels;
+			sourceTree = "<group>";
+		};
+		2B78210E1E9E1FB400016BCF /* YLAreaPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				2B78210F1E9E1FB400016BCF /* YLPickView.h */,
+				2B7821101E9E1FB400016BCF /* YLPickView.m */,
+			);
+			path = YLAreaPickerView;
+			sourceTree = "<group>";
+		};
+		2B7821111E9E1FB400016BCF /* YLControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B7821121E9E1FB400016BCF /* YLAreaPickerViewController.h */,
+				2B7821131E9E1FB400016BCF /* YLAreaPickerViewController.m */,
+			);
+			path = YLControllers;
+			sourceTree = "<group>";
+		};
+		2BCF13251E9CD72B0032C11C = {
+			isa = PBXGroup;
+			children = (
+				2B7820E51E9E1FB400016BCF /* YLAreaPicker */,
+				2BCF132F1E9CD72B0032C11C /* Products */,
+				2B75534D1E9DC8DD000FBD4D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2BCF132F1E9CD72B0032C11C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BCF132E1E9CD72B0032C11C /* YLAreaPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BCF132D1E9CD72B0032C11C /* YLAreaPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BCF13451E9CD72B0032C11C /* Build configuration list for PBXNativeTarget "YLAreaPicker" */;
+			buildPhases = (
+				2BCF132A1E9CD72B0032C11C /* Sources */,
+				2BCF132B1E9CD72B0032C11C /* Frameworks */,
+				2BCF132C1E9CD72B0032C11C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLAreaPicker;
+			productName = TestAreaData;
+			productReference = 2BCF132E1E9CD72B0032C11C /* YLAreaPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BCF13261E9CD72B0032C11C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Tim;
+				TargetAttributes = {
+					2BCF132D1E9CD72B0032C11C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6JD2FZC6PX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2BCF13291E9CD72B0032C11C /* Build configuration list for PBXProject "YLAreaPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BCF13251E9CD72B0032C11C;
+			productRefGroup = 2BCF132F1E9CD72B0032C11C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BCF132D1E9CD72B0032C11C /* YLAreaPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BCF132C1E9CD72B0032C11C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B78211F1E9E1FB400016BCF /* Info.plist in Resources */,
+				2B7821191E9E1FB400016BCF /* Main.storyboard in Resources */,
+				2B7821241E9E1FB400016BCF /* council.sqlite in Resources */,
+				2B7821171E9E1FB400016BCF /* Assets.xcassets in Resources */,
+				2B7821231E9E1FB400016BCF /* area.json in Resources */,
+				2B7821181E9E1FB400016BCF /* LaunchScreen.storyboard in Resources */,
+				2B78212F1E9E203300016BCF /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BCF132A1E9CD72B0032C11C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B78211E1E9E1FB400016BCF /* FMResultSet.m in Sources */,
+				2B78212B1E9E1FB400016BCF /* YLPickView.m in Sources */,
+				2B78212C1E9E1FB400016BCF /* YLAreaPickerViewController.m in Sources */,
+				2B78211D1E9E1FB400016BCF /* FMDatabaseQueue.m in Sources */,
+				2B7821221E9E1FB400016BCF /* ViewController.m in Sources */,
+				2B7821161E9E1FB400016BCF /* AppDelegate.m in Sources */,
+				2B7821291E9E1FB400016BCF /* YLProvence.m in Sources */,
+				2B78212A1E9E1FB400016BCF /* YLStreet.m in Sources */,
+				2B78211C1E9E1FB400016BCF /* FMDatabasePool.m in Sources */,
+				2B78211A1E9E1FB400016BCF /* FMDatabase.m in Sources */,
+				2B7821271E9E1FB400016BCF /* YLCity.m in Sources */,
+				2B7821251E9E1FB400016BCF /* YLArea.m in Sources */,
+				2B7821261E9E1FB400016BCF /* YLAreaModel.m in Sources */,
+				2B7821281E9E1FB400016BCF /* YLDataSource.m in Sources */,
+				2B7821211E9E1FB400016BCF /* main.m in Sources */,
+				2B78212D1E9E1FB400016BCF /* YLDataBaseManager.m in Sources */,
+				2B78211B1E9E1FB400016BCF /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B7820E91E9E1FB400016BCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B7820EA1E9E1FB400016BCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2B7820EB1E9E1FB400016BCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B7820EC1E9E1FB400016BCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BCF13431E9CD72B0032C11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BCF13441E9CD72B0032C11C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BCF13461E9CD72B0032C11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6JD2FZC6PX;
+				INFOPLIST_FILE = "$(SRCROOT)/YLAreaPicker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YL.TestAreaData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BCF13471E9CD72B0032C11C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6JD2FZC6PX;
+				INFOPLIST_FILE = "$(SRCROOT)/YLAreaPicker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YL.TestAreaData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BCF13291E9CD72B0032C11C /* Build configuration list for PBXProject "YLAreaPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCF13431E9CD72B0032C11C /* Debug */,
+				2BCF13441E9CD72B0032C11C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BCF13451E9CD72B0032C11C /* Build configuration list for PBXNativeTarget "YLAreaPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCF13461E9CD72B0032C11C /* Debug */,
+				2BCF13471E9CD72B0032C11C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BCF13261E9CD72B0032C11C /* Project object */;
+}
